@@ -22,10 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;	
 	margin: 0 auto;	
 	padding: 5px;
+	/*border: 2px solid red;*/
 }
 
 .header__inner{	
-	height: 88px;	
+	height: 88px;		
 }
 .header__logo{
 	float: left;
@@ -65,21 +66,43 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro{
 	width: 100%;
-	background-color: #08184e;
-	height: 200px;
-	padding-top: 5px; 
+	/*background: #10205a;*/
+	
+	background: url('../img/intro.jpg') no-repeat ;
+	
+	/*opacity: 0.6;*/
+	background-size: cover;
+	background-position: 50% 50%;    
+	height: 858px;	
+	padding-top: 5px;
+	position: relative; 
+	z-index: 100;	
+}
+
+.overlay{
+	background: #10205a;
+	opacity: 0.7;
+	/*background-color: rgba(24, 30, 64, 0.7);*/
+	position: absolute;	
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
 }
 .intro__header{
-	max-width: 1400px;
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
-	/*border: 2px solid red;*/
 	
+	width: 100%;
+	height: 50px;
+	
+	/*border: 2px solid yellow;*/
+	position: relative;
 }
 .intro__contact{
-
-	float: right;	
+	position: absolute;
+	top: 0;
+	right: -110px;
+	z-index: 8;
 	background-color:#fff;
 	width: 765px;
 	height: 73px;
@@ -93,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 	
 	height: inherit;
 	padding-right: 30px;
-
+	/*border: 2px solid red;*/
 	
 }
 .intro__items-contact{			
@@ -119,4 +142,87 @@ h1, h2, h3, h4, h5, h6 {
 }
 .intro__items-img-mail{
 	height: 20px;
+}
+
+
+.intro_-grid{
+	display: flex;
+	margin-top: 210px;
+	justify-content: flex-end;	
+	/*border: 1px solid red;*/
+	position: relative;
+
+
+}
+.intro__title{
+	width: 590px;	
+
+}
+.intro__title-h1{	
+	color: #fff;
+	font-size: 60px;
+}
+.intro__title-p{
+	font-size: 15px;
+	font-family: 'Rubik', sans-serif;
+	color: #fff;
+	font-weight: 400;
+	line-height: 25px;
+	/*letter-spacing: 0.1em;*/
+}
+.imtro__btn{
+	display: flex;
+	margin-top: 40px;
+}
+.btn{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 12px 28px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
+.imtro__btn .left{
+	margin-right: 25px;
+}
+
+/* ........................................
+  SECTION
+........................................ */
+.section__inner{
+
+
+}
+
+.section__inner-header{
+	display: flex;
+	justify-content: flex-end;
+	
+}
+.section__inner-logo{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+	
+	padding: 20px 0;	
+}
+.line{
+	position: relative;
+	
+}
+.line__item{
+	height: 5px;
+	border: 5px solid #928fa9;
+}
+
+.section__img{
+	position: absolute;
+	bottom: 0px;
+	z-index: 190;
+	
+}
+.section__img img{
+	width: 470px;
+	height: 750px;
 }
