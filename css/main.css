@@ -226,3 +226,139 @@ h1, h2, h3, h4, h5, h6 {
 	width: 470px;
 	height: 750px;
 }
+/* ........................................
+  NATURAL
+........................................ */
+.natural__intro{	
+	display: flex;
+	justify-content: space-between;
+	
+
+
+}
+.natural__text{
+	width: 470px;
+	height: 100%;	
+}
+.lorem{
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: 400;
+}
+.natural__title{
+	margin-top: 140px;
+	color: #082362;
+	font-size: 36px;
+	font-weight: bold;
+}
+.natural__title-team{
+	font-size: 20px;
+	font-weight: 500;
+	color: #707070;
+}
+.line-text{
+	margin-left: 45px;
+	display: inline-block;
+	width: 113px;
+	height: 4px;
+	background: #082362;
+	font-weight: 400;
+}
+.natural__title-text{
+	font-size: 16px;
+	font-weight: 500;
+	color: #707070;
+
+}
+.natural__price{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.price{
+	font-size: 24px;
+	font-weight: 500;
+	color: #082362;
+}
+.natural__price p {
+	margin: 0;
+}
+.natural__form-intro{
+	width: 600px;
+	height: 500px;
+	margin-top: 100px;
+	background: #082362;
+	padding: 30px;
+}
+.title__form{
+	color: #fff;
+	font-size: 36px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+
+}
+.contact_form{
+	max-width: 100%;
+	height: auto;
+	margin-top: 25px;
+	
+}
+.contact_form input[type="text"] {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 14px;
+    font-size: 14px;
+}
+.contact_form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contact_form input[type="submit"] {
+	margin-top: 30px;
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #082362;
+}
+
+/* ........................................
+  WORK
+........................................ */
+.work__intro{
+	display: flex;
+	width: 100%;	
+	justify-content: center;
+
+}
+.work__intro-text{
+	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+	width: 50%;	
+	color: #fff;
+	background: #082362;
+}
+.work__intro-items{
+	display: flex;
+	width: 450px;
+	border: 2px solid;
+	margin-right: 40px;
+	
+}
+.work__intro-title{
+	font-size: 36px;
+	margin: 30px 170px 30px 0;
+	
+}
+
+.work__intro-video{
+	width: 50%;
+	background: url(../img/video.jpg) no-repeat ;
+	background-size: cover;
+	background-position: center;	
+}
